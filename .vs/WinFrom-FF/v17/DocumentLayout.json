@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|c:\\users\\user\\desktop\\university\\3-c\u00FC kurs\\1-ci semestr\\m\u00FCasir proq. dill\u0259ri- amin m\\ff\\winfrom-ff\\winfrom-ff\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|solutionrelative:winfrom-ff\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFrom-FF\\Form1.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\Form1.cs [Design]",
+              "RelativeToolTip": "WinFrom-FF\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T16:47:34.189Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
