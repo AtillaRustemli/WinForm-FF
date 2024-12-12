@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|c:\\users\\user\\desktop\\university\\3-c\u00FC kurs\\1-ci semestr\\m\u00FCasir proq. dill\u0259ri- amin m\\ff\\winfrom-ff\\winfrom-ff\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|solutionrelative:winfrom-ff\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|c:\\users\\user\\desktop\\university\\3-c\u00FC kurs\\1-ci semestr\\m\u00FCasir proq. dill\u0259ri- amin m\\ff\\winfrom-ff\\winfrom-ff\\searchproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|solutionrelative:winfrom-ff\\searchproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|c:\\users\\user\\desktop\\university\\3-c\u00FC kurs\\1-ci semestr\\m\u00FCasir proq. dill\u0259ri- amin m\\ff\\winfrom-ff\\winfrom-ff\\searchproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|solutionrelative:winfrom-ff\\searchproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|c:\\users\\user\\desktop\\university\\3-c\u00FC kurs\\1-ci semestr\\m\u00FCasir proq. dill\u0259ri- amin m\\ff\\winfrom-ff\\winfrom-ff\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|solutionrelative:winfrom-ff\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|c:\\users\\user\\desktop\\university\\3-c\u00FC kurs\\1-ci semestr\\m\u00FCasir proq. dill\u0259ri- amin m\\ff\\winfrom-ff\\winfrom-ff\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|solutionrelative:winfrom-ff\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|c:\\users\\user\\desktop\\university\\3-c\u00FC kurs\\1-ci semestr\\m\u00FCasir proq. dill\u0259ri- amin m\\ff\\winfrom-ff\\winfrom-ff\\helpers\\errorprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|solutionrelative:winfrom-ff\\helpers\\errorprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|c:\\users\\user\\desktop\\university\\3-c\u00FC kurs\\1-ci semestr\\m\u00FCasir proq. dill\u0259ri- amin m\\ff\\winfrom-ff\\winfrom-ff\\searchproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|solutionrelative:winfrom-ff\\searchproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|c:\\users\\user\\desktop\\university\\3-c\u00FC kurs\\1-ci semestr\\m\u00FCasir proq. dill\u0259ri- amin m\\ff\\winfrom-ff\\winfrom-ff\\updateproductaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|solutionrelative:winfrom-ff\\updateproductaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|c:\\users\\user\\desktop\\university\\3-c\u00FC kurs\\1-ci semestr\\m\u00FCasir proq. dill\u0259ri- amin m\\ff\\winfrom-ff\\winfrom-ff\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|solutionrelative:winfrom-ff\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|c:\\users\\user\\desktop\\university\\3-c\u00FC kurs\\1-ci semestr\\m\u00FCasir proq. dill\u0259ri- amin m\\ff\\winfrom-ff\\winfrom-ff\\addproductaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|solutionrelative:winfrom-ff\\addproductaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|c:\\users\\user\\desktop\\university\\3-c\u00FC kurs\\1-ci semestr\\m\u00FCasir proq. dill\u0259ri- amin m\\ff\\winfrom-ff\\winfrom-ff\\enums\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DB30C76-5913-4433-91F9-CBDF45D355DB}|WinFrom-FF\\WinFrom-FF.csproj|solutionrelative:winfrom-ff\\enums\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +50,135 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorProvider.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\Helpers\\ErrorProvider.cs",
+              "RelativeDocumentMoniker": "WinFrom-FF\\Helpers\\ErrorProvider.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\Helpers\\ErrorProvider.cs",
+              "RelativeToolTip": "WinFrom-FF\\Helpers\\ErrorProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:13:51.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SearchProductForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\SearchProductForm.Designer.cs",
+              "RelativeDocumentMoniker": "WinFrom-FF\\SearchProductForm.Designer.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\SearchProductForm.Designer.cs",
+              "RelativeToolTip": "WinFrom-FF\\SearchProductForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T14:02:37.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
+              "Title": "SearchProductForm.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\SearchProductForm.cs",
+              "RelativeDocumentMoniker": "WinFrom-FF\\SearchProductForm.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\SearchProductForm.cs",
+              "RelativeToolTip": "WinFrom-FF\\SearchProductForm.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAvwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:44:33.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\Form1.cs",
               "RelativeDocumentMoniker": "WinFrom-FF\\Form1.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\Form1.cs [Design]",
-              "RelativeToolTip": "WinFrom-FF\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\Form1.cs",
+              "RelativeToolTip": "WinFrom-FF\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIAwwBUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T16:47:34.189Z",
+              "WhenOpened": "2024-12-12T13:41:49.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchProductForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\SearchProductForm.cs",
+              "RelativeDocumentMoniker": "WinFrom-FF\\SearchProductForm.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\SearchProductForm.cs [Design]",
+              "RelativeToolTip": "WinFrom-FF\\SearchProductForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:41:53.227Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddProductAction.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\AddProductAction.cs",
+              "RelativeDocumentMoniker": "WinFrom-FF\\AddProductAction.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\AddProductAction.cs",
+              "RelativeToolTip": "WinFrom-FF\\AddProductAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:52:16.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateProductAction.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\UpdateProductAction.cs",
+              "RelativeDocumentMoniker": "WinFrom-FF\\UpdateProductAction.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\UpdateProductAction.cs",
+              "RelativeToolTip": "WinFrom-FF\\UpdateProductAction.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwC0AAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T19:16:16.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\Enums\\Category.cs",
+              "RelativeDocumentMoniker": "WinFrom-FF\\Enums\\Category.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\Enums\\Category.cs",
+              "RelativeToolTip": "WinFrom-FF\\Enums\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T18:15:50.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\Product.cs",
+              "RelativeDocumentMoniker": "WinFrom-FF\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\Product.cs",
+              "RelativeToolTip": "WinFrom-FF\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T16:22:42.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\Helpers\\Constants.cs",
+              "RelativeDocumentMoniker": "WinFrom-FF\\Helpers\\Constants.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\University\\3-c\u00FC kurs\\1-ci semestr\\M\u00FCasir proq. dill\u0259ri- Amin M\\FF\\WinFrom-FF\\WinFrom-FF\\Helpers\\Constants.cs",
+              "RelativeToolTip": "WinFrom-FF\\Helpers\\Constants.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAtwCoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T12:25:26.241Z",
+              "EditorCaption": ""
             }
           ]
         }
