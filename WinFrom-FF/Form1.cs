@@ -1,5 +1,6 @@
 using Constants = WinFrom_FF.Helpers.Constants;
 using ErrorProvider=WinFrom_FF.Helpers.ErrorProvider;
+using SoundProvider = WinFrom_FF.Helpers.SoundProvider;
 
 namespace WinFrom_FF
 {
@@ -28,6 +29,8 @@ namespace WinFrom_FF
         }
 
         private void searchProduct_Click(object sender, EventArgs e) => Constants.GoToForm(this, new SearchProductForm(), true);
+
+        private void endProgram_Click(object sender, EventArgs e) =>  Close();
         
     }
 }

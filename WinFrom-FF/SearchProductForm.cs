@@ -1,6 +1,4 @@
 ﻿using System.Data;
-using System.Windows.Forms;
-using WinFrom_FF.Enums;
 using Constants=WinFrom_FF.Helpers.Constants;
 using ErrorProvider=WinFrom_FF.Helpers.ErrorProvider;
 
@@ -9,10 +7,8 @@ namespace WinFrom_FF
     public partial class SearchProductForm : Form
     {
         private bool _isSearching = true;
-        public SearchProductForm()
-        {
-            InitializeComponent();
-        }
+        public SearchProductForm() => InitializeComponent();
+        
 
         private void SearchProductForm_Load(object sender, EventArgs e)
         {

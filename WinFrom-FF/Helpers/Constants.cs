@@ -1,6 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
 using System.Data;
-using System.Globalization;
 
 namespace WinFrom_FF.Helpers
 {
@@ -24,7 +23,8 @@ namespace WinFrom_FF.Helpers
         //Queries
         //
         public static string SelectAll =
-            "SELECT Id, Name,Description, QuantityInStock,Price, CostPrice, Discount, category  from products";
+            "SELECT Id, Name, Description, QuantityInStock, Price, CostPrice, Discount, category FROM products ORDER BY Id";
+
         public static string SelectOne =
             "SELECT Id, Name,Description, QuantityInStock,Price, CostPrice, Discount, category, CreatedDate  from products WHERE Name = '@name'";
 
@@ -36,7 +36,6 @@ namespace WinFrom_FF.Helpers
 
         public const string DeleteProduct =
             "DELETE FROM products WHERE Name = '@name';";
-
 
         //
         //Command and Queries
@@ -58,63 +57,37 @@ namespace WinFrom_FF.Helpers
         {
             string? resultQuery;
             int messageDefiner;
-            if (newProduct is not null)
-            {
-                Dictionary<string, string> possibleProblems = new()
-                {
-                    {"Category", newProduct.Category },
-                    {"Name",  newProduct.Name  },
-                    {"Description", newProduct.Description }
-                };
-                foreach (var key in possibleProblems.Keys)
-                    if (possibleProblems[key].Contains("'")) possibleProblems[key]=possibleProblems[key].Replace("\'","''");
-                
-                newProduct.Category = possibleProblems["Category"];
-                newProduct.Name = possibleProblems["Name"];
-                newProduct.Description = possibleProblems["Description"];
-            }
-
+            if (newProduct is not null) newProduct = CheckSyntax(newProduct);
+            
             if (name is not null&&name.Contains("'")) name = name.Replace("\'", "''"); 
             switch (action)
             {
                 case Insert:
                     if (newProduct is not null)
                     {
-                        resultQuery = CreateNewProduct.Replace("@Name", newProduct.Name);
-                        resultQuery = resultQuery.Replace("@Description", newProduct.Description);
-                        resultQuery = resultQuery.Replace("@Price",
-                            newProduct.Price.ToString(CultureInfo.InvariantCulture));
-                        resultQuery = resultQuery.Replace("@CostPrice",
-                            newProduct.CostPrice.ToString(CultureInfo.InvariantCulture));
-                        resultQuery = resultQuery.Replace("@Discount",
-                            newProduct.Discount.ToString(CultureInfo.InvariantCulture));
-                        resultQuery = resultQuery.Replace("@Category", newProduct.Category);
-                        resultQuery =
-                            resultQuery.Replace("@QuantityInStock", newProduct.QuantityInStock.ToString());
-                        messageDefiner = 200;
+                        resultQuery = QueryMaker.InsertAndUpdateQueryMaker(newProduct, CreateNewProduct);
+                        if (!PriceConfiguration.IsCorrectPriceRelation(newProduct.Price, newProduct.CostPrice, newProduct.Discount))
+                            return 400;
+                        messageDefiner = 201;
                     }
                     else return 400;
+                    
+                    
                     break;
                 case Update:
-                    if (name is null) return 400;
+                    if (String.IsNullOrEmpty(name)) return 400;
                     var userUpdate = ExecuteQuery(SelectOne.Replace("@name", name));
                     if (userUpdate.Rows.Count == 1 && newProduct is not null)
                     {
-                        UpdateProduct = UpdateProduct.Replace("@Name", newProduct.Name);
-                        UpdateProduct = UpdateProduct.Replace("@Description", newProduct.Description);
-                        UpdateProduct = UpdateProduct.Replace("@Price", newProduct.Price.ToString(CultureInfo.InvariantCulture));
-                        UpdateProduct = UpdateProduct.Replace("@CostPrice", newProduct.CostPrice.ToString(CultureInfo.InvariantCulture));
-                        UpdateProduct = UpdateProduct.Replace("@Discount", newProduct.Discount.ToString(CultureInfo.InvariantCulture));
-                        UpdateProduct = UpdateProduct.Replace("@Category", newProduct.Category);
-                        UpdateProduct = UpdateProduct.Replace("@QuantityInStock", newProduct.QuantityInStock.ToString());
-                        UpdateProduct = UpdateProduct.Replace("@name", name);
-                        resultQuery = UpdateProduct;
-                        messageDefiner = 201;
+                        resultQuery = QueryMaker.InsertAndUpdateQueryMaker(newProduct, UpdateProduct, name);
+                        if (!PriceConfiguration.IsCorrectPriceRelation(newProduct.Price, newProduct.CostPrice, newProduct.Discount))
+                            return 400;
+                        messageDefiner = 202;
                     }
                     else return 404;
                     break;
                 case Delete:
-                    if (name is null) return 400;
+                    if (String.IsNullOrEmpty(name)) return 400;
                     var userDelete = ExecuteQuery(SelectOne.Replace("@name", name));
                     if (userDelete.Rows.Count==1) resultQuery = DeleteProduct.Replace("@name", name);
                     else return 404;
@@ -129,12 +102,18 @@ namespace WinFrom_FF.Helpers
                 using (MySqlCommand command = new MySqlCommand(resultQuery, connection))
                 {
                     connection.Open();
+                    try
+                    {
                     command.ExecuteNonQuery();
+                    }
+                    catch
+                    {
+                        return 409;
+                    }
                     return messageDefiner;
                 }
             }
         }
-
         // 
         //Constant methods
         //
@@ -144,6 +123,24 @@ namespace WinFrom_FF.Helpers
             if (isMainForm) currentForm.Hide();
             else currentForm.Dispose();
         }
+        //
+        //Check syntax
+        //
+        static Product CheckSyntax(Product product)
+        {
+            Dictionary<string, string> possibleProblems = new()
+                {
+                    {"Category", product.Category },
+                    {"Name",  product.Name  },
+                    {"Description", product.Description }
+                };
+            foreach (var key in possibleProblems.Keys)
+                if (possibleProblems[key].Contains("'")) possibleProblems[key] = possibleProblems[key].Replace("\'", "''");
 
+            product.Category = possibleProblems["Category"];
+            product.Name = possibleProblems["Name"];
+            product.Description = possibleProblems["Description"];
+            return product;
+        }
     }
 }

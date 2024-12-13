@@ -34,11 +34,12 @@ namespace WinFrom_FF
                     QuantityInStock = int.Parse(quantityInStock.Text)
                 };
                 result = Constants.ExecuteCommand(Constants.Update, updateProduct, allProducts.Text);
+                Constants.GoToForm(this, new Form1());
             }
             else MessageBox.Show(ErrorProvider.GetErrorMessages(500));
 
+
             if (result is not 0) MessageBox.Show(ErrorProvider.GetErrorMessages(result));
-            Constants.GoToForm(this, new Form1());
         }
 
         private void UpdateProductAction_Load(object sender, EventArgs e)
