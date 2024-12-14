@@ -38,6 +38,7 @@
             searchProduct = new Button();
             deleteProduct = new Button();
             endProgram = new Button();
+            refreshPage = new Button();
             headerBackground.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -169,11 +170,25 @@
             endProgram.UseVisualStyleBackColor = false;
             endProgram.Click += endProgram_Click;
             // 
+            // refreshPage
+            // 
+            refreshPage.BackColor = Color.Cyan;
+            refreshPage.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            refreshPage.ForeColor = SystemColors.ButtonFace;
+            refreshPage.Location = new Point(17, 1006);
+            refreshPage.Name = "refreshPage";
+            refreshPage.Size = new Size(461, 107);
+            refreshPage.TabIndex = 8;
+            refreshPage.Text = "Refresh page";
+            refreshPage.UseVisualStyleBackColor = false;
+            refreshPage.Click += refreshPage_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1649, 1125);
+            Controls.Add(refreshPage);
             Controls.Add(endProgram);
             Controls.Add(searchProduct);
             Controls.Add(deleteProduct);
@@ -206,5 +221,6 @@
         private Button searchProduct;
         private Button deleteProduct;
         private Button endProgram;
+        private Button refreshPage;
     }
 }

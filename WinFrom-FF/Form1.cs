@@ -30,7 +30,8 @@ namespace WinFrom_FF
 
         private void searchProduct_Click(object sender, EventArgs e) => Constants.GoToForm(this, new SearchProductForm(), true);
 
-        private void endProgram_Click(object sender, EventArgs e) =>  Close();
-        
+        private void endProgram_Click(object sender, EventArgs e) => Close();
+
+        private void refreshPage_Click(object sender, EventArgs e) => Refresh();        
     }
 }
